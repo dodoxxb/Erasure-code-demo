@@ -1,1 +1,1 @@
-# Erasure-code-XScale
+# Erasure-code-CScale
