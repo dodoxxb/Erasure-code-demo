@@ -1,0 +1,31 @@
+\setlength{\parindent}{0pt}
+\section{RELATED WORK}
+
+\textbf{Scaling mechansim.}Recent years, in order to raise the efficiency of 
+scaling process, a large amount of scaling mechansim have been proposed for 
+erasure-coded distributed storage systems and RAID in the literature, which 
+are focus on minimizing the cost of data block  migration and parity block 
+updates. However, such mechansims don't achieve the minimum cost of scaling 
+procss. In this work, we concentrates on scaling mechanism for erasure-coded
+distributed storage, whose performance is more efficient than previous works
+no matter scaling for one time or more. \\
+\textbf{Parallel execution and compression transmission.}To the best of our 
+knowledge, we are the first one to realize that make the two necessary 
+operations of scaling process execute parallelly(i.e data blocks migration 
+and parity blocks update). PCScale utilize the encoding relationship 
+between data blocks and parity block to separate above two operations that 
+will reduce the latency time of scaling process. Compared to NCScale, 
+PCScale compute delta parity blocks not only make use of data blocks, but 
+also corresponding parity blocks, which can achieve the purpose of 
+compression transmission and minimize disks I/Os of scaling process.  \\ 
+\textbf{Repair-Scaling trade-off for Erasure Codes.}There has been plenty of
+studies on adaptive storage scheme base on frequency of data access and 
+matched transition algorithm while data with different properties is stored
+in different ways. However, such approachs focus on raising recovery 
+performance for erasure-coded storage systems. What's more, Wu et al. 
+analyzes the optimal repair-scaling trade-off curve. In this work, we 
+leverage the relationship between stripe width and repair performance to 
+achieve the different repair and scaling demands of hot data and cold data
+after multiple scaling process.
+
+\section{CONCLUSION}
