@@ -1,1 +1,3 @@
-# Erasure-code-PCScale
+# Erasure-code-demo
+
+test readme!
