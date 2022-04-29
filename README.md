@@ -6,7 +6,7 @@ Check matrix decomposition:
 
 demo:
 <br>
-&ensp;&ensp;&ensp;&ensp; Demo of encode, decode and update parity which is achieved by jeasure library.
+&ensp;&ensp;&ensp;&ensp; Demo of encode, decode and update parity which is achieved by jeasure library（Make sure that GF-complete library has been installed）.
 
 ncscale_layout:
 <br>
